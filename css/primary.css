@@ -1,15 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,700|Oswald:700|Alfa+Slab+One);
-/* line 4, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_box-sizing.scss */
+/* line 4, ../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_box-sizing.scss */
 html {
   box-sizing: border-box; }
 
-/* line 9, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_box-sizing.scss */
+/* line 9, ../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_box-sizing.scss */
 *, *::after, *::before {
   box-sizing: inherit; }
 
 /* line 1, input/header.scss */
 header {
-  background: #7BCAE8;
+  background: #F6742D;
   background-size: 120% auto;
   background-position-x: -20px;
   background-repeat: repeat;
@@ -62,7 +62,7 @@ header {
       font-size: 2em;
       color: white;
       letter-spacing: 2px;
-      text-shadow: 3px 3px 1px #1a7496; } }
+      text-shadow: 3px 3px 1px #6c2905; } }
   @media screen and (min-width: 601px) {
     /* line 52, input/header.scss */
     header h1 {
@@ -71,7 +71,7 @@ header {
       font-size: 3em;
       color: white;
       letter-spacing: 2px;
-      text-shadow: 3px 3px 1px #1a7496; } }
+      text-shadow: 3px 3px 1px #6c2905; } }
   @media screen and (min-width: 950px) {
     /* line 52, input/header.scss */
     header h1 {
@@ -80,7 +80,7 @@ header {
       font-size: 3.8em;
       color: white;
       letter-spacing: 2px;
-      text-shadow: 3px 3px 1px #1a7496; } }
+      text-shadow: 3px 3px 1px #6c2905; } }
   /* line 88, input/header.scss */
   header p {
     font-family: "Arvo", serif;
@@ -196,7 +196,7 @@ section.navigation_scrolled{
   font-family: "Arvo", serif;
   font-weight: 400;
   color: white;
-  background-color: #7BCAE8; }
+  background-color: #F6742D; }
 
 /* li is the top level box, the first one you see */
 /* line 57, input/navigation.scss */
@@ -210,7 +210,7 @@ li {
   li a:link, li a:visited {
     display: block;
     text-decoration: none;
-    background-color: #50b9e0;
+    background-color: #e6580a;
     padding: 0.5em 2em;
     margin: 0;
     border-right: 1px solid #fff;
@@ -238,17 +238,17 @@ li {
       float: none; }
       /* line 90, input/navigation.scss */
       li ul li a:link, li ul li .myMenu li ul li a:visited {
-        background-color: #7BCAE8;
+        background-color: #F6742D;
         width: auto; }
 
 /* line 99, input/navigation.scss */
 .myMenu li ul li a:link, .myMenu li ul li a:visited {
-  background-color: #7BCAE8;
+  background-color: #F6742D;
   width: auto; }
 
 /* line 104, input/navigation.scss */
 .myMenu li ul li a:hover {
-  background-color: #2296c2; }
+  background-color: #9d3c07; }
 
 /* line 115, input/navigation.scss */
 .filters {
@@ -257,7 +257,7 @@ li {
   margin-right: auto;
   background-color: white;
   padding: 10px; }
-  /* line 20, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  /* line 20, ../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/addons/_clearfix.scss */
   .filters::after {
     clear: both;
     content: "";
@@ -267,7 +267,7 @@ li {
 .band_btn, .count_basin_button, .performer_pick_button {
   font-size: 1.1em;
   color: white;
-  background-color: #50b9e0;
+  background-color: #e6580a;
   border: 1 pt;
   border-radius: 3px;
   border-style: solid;
@@ -308,7 +308,7 @@ section#cubes {
     margin-right: auto;
     border: 5px;
     padding-bottom: 70px; }
-    /* line 20, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+    /* line 20, ../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/addons/_clearfix.scss */
     section#cubes section.cubes_row::after {
       clear: both;
       content: "";
@@ -339,7 +339,7 @@ section .cubes_Fri {
       margin-right: 2.3576515979%;
       width: 31.7615656014%;
       height: 800px; }
-      /* line 89, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
+      /* line 89, ../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
       section .cubes_Fri:last-child {
         margin-right: 0; } }
   @media screen and (max-width: 600px) {
@@ -350,7 +350,7 @@ section .cubes_Fri {
       margin-right: 2.3576515979%;
       width: 100%;
       height: 100%; }
-      /* line 89, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
+      /* line 89, ../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
       section .cubes_Fri:last-child {
         margin-right: 0; } }
 /* line 91, input/cubes.scss */
@@ -365,7 +365,7 @@ section .cubes_Fri_last {
       margin-right: 2.3576515979%;
       width: 31.7615656014%;
       height: 800px; }
-      /* line 89, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
+      /* line 89, ../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
       section .cubes_Fri_last:last-child {
         margin-right: 0; } }
   @media screen and (max-width: 600px) {
@@ -376,7 +376,7 @@ section .cubes_Fri_last {
       margin-right: 2.3576515979%;
       width: 100%;
       height: 100%; }
-      /* line 89, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
+      /* line 89, ../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
       section .cubes_Fri_last:last-child {
         margin-right: 0; } }
 /* line 96, input/cubes.scss */
@@ -390,7 +390,7 @@ section .cubes_Sat {
       margin-right: 2.3576515979%;
       width: 23.2317613015%;
       height: 910px; }
-      /* line 89, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
+      /* line 89, ../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
       section .cubes_Sat:last-child {
         margin-right: 0; } }
   @media screen and (max-width: 600px) {
@@ -401,7 +401,7 @@ section .cubes_Sat {
       margin-right: 2.3576515979%;
       width: 100%;
       height: 100%; }
-      /* line 89, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
+      /* line 89, ../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
       section .cubes_Sat:last-child {
         margin-right: 0; } }
 /* line 100, input/cubes.scss */
@@ -415,7 +415,7 @@ section .cubes_Sat_last {
       margin-right: 2.3576515979%;
       width: 23.2317613015%;
       height: 910px; }
-      /* line 89, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
+      /* line 89, ../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
       section .cubes_Sat_last:last-child {
         margin-right: 0; } }
   @media screen and (max-width: 600px) {
@@ -426,7 +426,7 @@ section .cubes_Sat_last {
       margin-right: 2.3576515979%;
       width: 100%;
       height: 100%; }
-      /* line 89, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
+      /* line 89, ../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
       section .cubes_Sat_last:last-child {
         margin-right: 0; } }
 /* line 105, input/cubes.scss */
@@ -436,9 +436,9 @@ section .band_box {
   display: table;
   vertical-align: middle;
   text-align: center;
-  background-color: #7BCAE8;
-  background-image: -webkit-linear-gradient(#7BCAE8, #50b9e0);
-  background-image: linear-gradient(#7BCAE8, #50b9e0); }
+  background-color: #F6742D;
+  background-image: -webkit-linear-gradient(#F6742D, #e6580a);
+  background-image: linear-gradient(#F6742D, #e6580a); }
   @media screen and (max-width: 600px) {
     /* line 105, input/cubes.scss */
     section .band_box {
@@ -518,9 +518,9 @@ section h1 {
   display: table;
   vertical-align: middle;
   text-align: center;
-  background-color: #7BCAE8;
-  background-image: -webkit-linear-gradient(#7BCAE8, #50b9e0);
-  background-image: linear-gradient(#7BCAE8, #50b9e0);
+  background-color: #F6742D;
+  background-image: -webkit-linear-gradient(#F6742D, #e6580a);
+  background-image: linear-gradient(#F6742D, #e6580a);
   height: 70px; }
   @media screen and (max-width: 600px) {
     /* line 163, input/cubes.scss */
@@ -581,7 +581,7 @@ section h1 {
 h1.stage_name {
   font-family: "Arvo", serif;
   font: 400;
-  color: #50b9e0;
+  color: #e6580a;
   text-align: center; }
 
 /* line 243, input/cubes.scss */
@@ -606,7 +606,7 @@ h2 {
       font-size: 1.6em;
       position: relative;
       bottom: .2em; }
-      /* line 89, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
+      /* line 89, ../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
       h2:last-child {
         margin-right: 0; } }
 
