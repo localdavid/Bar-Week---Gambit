@@ -277,14 +277,14 @@ li {
 /* line 137, input/navigation.scss */
 .count_basin_button {
   background-color: white;
-  color: #7aff9f;
-  border-color: #7aff9f; }
+  color: #ffd40f;
+  border-color: #ffd40f; }
 
 /* line 145, input/navigation.scss */
 .basin_button_active {
   color: white;
-  background-color: #7aff9f;
-  border-color: #7aff9f; }
+  background-color: #ffd40f;
+  border-color: #ffd40f; }
 
 /* line 155, input/navigation.scss */
 .performer_pick_button {
@@ -459,9 +459,9 @@ section .band_box_basin_pick {
   display: table;
   vertical-align: middle;
   text-align: center;
-  background-color: #adffc4;
-  background-image: -webkit-linear-gradient(#adffc4, #7aff9f);
-  background-image: linear-gradient(#adffc4, #7aff9f);
+  background-color: #ffdd42;
+  background-image: -webkit-linear-gradient(#ffdd42, #ffd40f);
+  background-image: linear-gradient(#ffdd42, #ffd40f);
   /*
   			background-repeat: no-repeat, repeat;
   			background-position: 95% 10%, 0 0;

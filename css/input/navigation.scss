@@ -137,15 +137,15 @@ section.navigation_scrolled{
 .count_basin_button {
 	@extend .band_btn;
 	background-color: white;
-	color: $green-color-darken;
-	border-color: $green-color-darken;
+	color: $second-color-darken;
+	border-color: $second-color-darken;
 
 }
 
 .basin_button_active {
 	color: white;
-	background-color: $green-color-darken;
-	border-color: $green-color-darken;
+	background-color: $second-color-darken;
+	border-color: $second-color-darken;
 }
 	
 
