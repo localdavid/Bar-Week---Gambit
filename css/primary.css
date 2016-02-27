@@ -330,7 +330,7 @@ section .active_cubes_date {
     text-align: center; }
 /* line 87, input/cubes.scss */
 section .cubes_Fri {
-  background: #c6fdff; }
+  background: #e8f1f4; }
   @media screen and (min-width: 601px) {
     /* line 87, input/cubes.scss */
     section .cubes_Fri {
@@ -355,7 +355,7 @@ section .cubes_Fri {
         margin-right: 0; } }
 /* line 91, input/cubes.scss */
 section .cubes_Fri_last {
-  background: #c6fdff;
+  background: #e8f1f4;
   margin-right: 0; }
   @media screen and (min-width: 601px) {
     /* line 91, input/cubes.scss */
@@ -381,7 +381,7 @@ section .cubes_Fri_last {
         margin-right: 0; } }
 /* line 96, input/cubes.scss */
 section .cubes_Sat {
-  background: #c6fdff; }
+  background: #e8f1f4; }
   @media screen and (min-width: 601px) {
     /* line 96, input/cubes.scss */
     section .cubes_Sat {
@@ -406,7 +406,7 @@ section .cubes_Sat {
         margin-right: 0; } }
 /* line 100, input/cubes.scss */
 section .cubes_Sat_last {
-  background: #c6fdff; }
+  background: #e8f1f4; }
   @media screen and (min-width: 601px) {
     /* line 100, input/cubes.scss */
     section .cubes_Sat_last {
