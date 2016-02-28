@@ -137,6 +137,14 @@ section {
 			@include band_box_template;
 
 		}
+		
+		.text2 {
+			color: gainsboro;
+			display: table-cell;
+			vertical-align: middle;
+			@include band_box_template;
+			@include linear-gradient($color-3-darken, $color-3);			
+		}
 
 		h3 {
 			font-size: 1.1em;
@@ -197,17 +205,10 @@ section {
 
 
 
-
-
-
-
 	
 .full_cube {
 	display: none;
 }
-
-	
-
 
 
 

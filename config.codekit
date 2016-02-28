@@ -156,7 +156,7 @@
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/input\/variables.scss",
 		"outputAbbreviatedPath": "\/css\/css\/variables.css",
 		"outputPathIsOutsideProject": 0,

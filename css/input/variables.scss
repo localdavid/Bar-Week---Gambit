@@ -7,6 +7,8 @@ $primary-color-darken3: darken($primary-color, 35%);
 $primary-color-lighten: lighten($primary-color, 15%);
 $secondary-color: #ffec96;
 $secondary-color-lighten: lighten($secondary-color, 15%);
+$secondary-color-lighten2: lighten($secondary-color, 50%);
+
 
 $second-color: #ffdd42;
 $second-color-darken: darken($second-color, 10%);
@@ -22,6 +24,10 @@ $date-fade-color: #e8f1f4;
 
 $body-line-height: 5em;
 
+$color-3: #4c4e42;
+$color-3-darken: darken($color-3, 10%);
+$color-3-darken2: darken($color-3, 25%);
+$color-3-darken3: darken($color-3, 35%);
 
 // Google Fonts
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,700|Oswald:700|Alfa+Slab+One);
