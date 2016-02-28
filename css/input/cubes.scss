@@ -131,9 +131,11 @@ section {
 			@include linear-gradient($purple-color, $purple-color-darken );
 		}		
 			
-		.text {
+		.text, .text2 {
 			display: table-cell;
 			vertical-align: middle;
+			@include band_box_template;
+
 		}
 
 		h3 {
