@@ -79,6 +79,8 @@ section {
 				vertical-align: middle;
 				text-align: center;
 			}	
+			
+
 			    
 
 		}
@@ -139,6 +141,7 @@ section {
 		}
 		
 		.text2 {
+			padding-top: 2%;
 			color: #ffffff;
 			display: table-cell;
 			vertical-align: middle;
@@ -147,7 +150,7 @@ section {
 			background-color: $color-3;
 			
 			
-			// Bevel corner
+			// Bevel corner   http://lea.verou.me/2011/03/beveled-corners-negative-border-radius-with-css3-gradients/
 			background: $color-3; /* fallback */
 			background:
 				linear-gradient(135deg, transparent 0px, $color-3 0) top left,
@@ -166,7 +169,26 @@ section {
 			font-family: $secondary-font;
 			font-weight: 700;
 		}
+	
+		h4 {
+			font-family: $primary-font;
+			font-size: .9em;
+			letter-spacing: 1px;
+			color: inherit;
+			vertical-align: middle;
+			text-align: center;	
+		}
 		
+		h5 {
+			font-family: $primary-font;
+			font-size: 0.9em;
+			letter-spacing: 1px;
+			color: inherit;
+			vertical-align: middle;
+			text-align: center;	
+		    text-transform: uppercase;	
+		}
+				
 		h1 {
 			font-size: 2em;
 			// 				text-align: center;
