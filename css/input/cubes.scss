@@ -143,7 +143,20 @@ section {
 			display: table-cell;
 			vertical-align: middle;
 			@include band_box_template;
-			@include linear-gradient($color-3-darken, $color-3);			
+// 			@include linear-gradient($color-3-darken, $color-3);	
+			background-color: $color-3;
+			
+			
+			// Bevel corner
+			background: $color-3; /* fallback */
+			background:
+				linear-gradient(135deg, transparent 0px, $color-3 0) top left,
+				linear-gradient(225deg, transparent 0px, $color-3 0) top right,
+				linear-gradient(315deg, transparent 8px, $color-3 0) bottom right,
+				linear-gradient(45deg,  transparent 8px, $color-3 0) bottom left;
+			background-size: 50% 50%;
+			background-repeat: no-repeat;
+		
 		}
 
 		h3 {
