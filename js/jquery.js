@@ -125,6 +125,27 @@ $(window).resize(function() {
 			$("#more_box_add").fadeToggle(200);
 		});
 	});
+	
+	
+// Show/hide more .text2 box
+
+
+
+	// Hides .text2 on page load
+	$(document).ready(function() {
+    	$(".text2").hide();
+	});
+	
+
+	
+
+	
+	$(document).ready(function() {
+		$(".band_box_basin_pick").click(function() {
+			$(".text2").fadeToggle(200);
+		});
+	});
+			
 				
 
 
