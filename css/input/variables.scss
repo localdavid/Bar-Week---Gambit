@@ -24,7 +24,9 @@ $date-fade-color: #e8f1f4;
 
 $body-line-height: 5em;
 
-$color-3: #4c4e42;
+// $color-3: #4c4e42;
+$color-3: $second-color-darken2;
+
 $color-3-darken: darken($color-3, 10%);
 $color-3-darken2: darken($color-3, 25%);
 $color-3-darken3: darken($color-3, 35%);

@@ -500,7 +500,7 @@ section .text, section .text2 {
       height: 80px; } }
 /* line 141, input/cubes.scss */
 section .text2 {
-  color: gainsboro;
+  color: #ffffff;
   display: table-cell;
   vertical-align: middle;
   height: 100px;
@@ -508,10 +508,10 @@ section .text2 {
   display: table;
   vertical-align: middle;
   text-align: center;
-  background-color: #4c4e42;
-  background: #4c4e42;
+  background-color: #a88a00;
+  background: #a88a00;
   /* fallback */
-  background: linear-gradient(135deg, transparent 0px, #4c4e42 0) top left, linear-gradient(225deg, transparent 0px, #4c4e42 0) top right, linear-gradient(315deg, transparent 8px, #4c4e42 0) bottom right, linear-gradient(45deg, transparent 8px, #4c4e42 0) bottom left;
+  background: linear-gradient(135deg, transparent 0px, #a88a00 0) top left, linear-gradient(225deg, transparent 0px, #a88a00 0) top right, linear-gradient(315deg, transparent 8px, #a88a00 0) bottom right, linear-gradient(45deg, transparent 8px, #a88a00 0) bottom left;
   background-size: 50% 50%;
   background-repeat: no-repeat; }
   @media screen and (max-width: 600px) {
