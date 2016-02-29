@@ -154,6 +154,25 @@ section {
 			font-weight: 700;
 		}
 		
+		h4 {
+			font-family: $primary-font;
+			font-size: .9em;
+			letter-spacing: 1px;
+			color: inherit;
+			vertical-align: middle;
+			text-align: center;	
+		}
+		
+		h5 {
+			font-family: $primary-font;
+			font-size: 0.9em;
+			letter-spacing: 1px;
+			color: inherit;
+			vertical-align: middle;
+			text-align: center;	
+		    text-transform: uppercase;	
+		}
+		
 		h1 {
 			font-size: 2em;
 			// 				text-align: center;

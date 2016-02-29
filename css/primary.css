@@ -523,21 +523,38 @@ section h3 {
   font-family: "Arvo", serif;
   font-weight: 700; }
 /* line 157, input/cubes.scss */
+section h4 {
+  font-family: "Oswald", sans-serif;
+  font-size: .9em;
+  letter-spacing: 1px;
+  color: inherit;
+  vertical-align: middle;
+  text-align: center; }
+/* line 166, input/cubes.scss */
+section h5 {
+  font-family: "Oswald", sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  color: inherit;
+  vertical-align: middle;
+  text-align: center;
+  text-transform: uppercase; }
+/* line 176, input/cubes.scss */
 section h1 {
   font-size: 2em;
   line-height: 1.1em;
   font-family: "Oswald", sans-serif;
   position: relative;
   bottom: .2em; }
-  /* line 164, input/cubes.scss */
+  /* line 183, input/cubes.scss */
   section h1 .small {
     font-size: 1em; }
   @media screen and (max-width: 600px) {
-    /* line 157, input/cubes.scss */
+    /* line 176, input/cubes.scss */
     section h1 {
       font-size: 1.6em; } }
 
-/* line 173, input/cubes.scss */
+/* line 192, input/cubes.scss */
 .band_box_kids {
   height: 100px;
   width: 100%;
@@ -549,10 +566,10 @@ section h1 {
   background-image: linear-gradient(#F6742D, #e6580a);
   height: 70px; }
   @media screen and (max-width: 600px) {
-    /* line 173, input/cubes.scss */
+    /* line 192, input/cubes.scss */
     .band_box_kids {
       height: 80px; } }
-  /* line 177, input/cubes.scss */
+  /* line 196, input/cubes.scss */
   .band_box_kids a {
     position: absolute;
     width: 100%;
@@ -561,68 +578,68 @@ section h1 {
     left: 0;
     z-index: 200;
     text-decoration: none; }
-    /* line 186, input/cubes.scss */
+    /* line 205, input/cubes.scss */
     .band_box_kids a h1 {
       font-size: 3em;
       line-height: 1em;
       font-family: "Oswald", sans-serif;
       position: relative;
       bottom: .2em; }
-  /* line 195, input/cubes.scss */
+  /* line 214, input/cubes.scss */
   .band_box_kids h3 {
     line-height: .2em;
     position: relative;
     top: .2em; }
     @media screen and (max-width: 600px) {
-      /* line 195, input/cubes.scss */
+      /* line 214, input/cubes.scss */
       .band_box_kids h3 {
         top: .3em; } }
 
-/* line 209, input/cubes.scss */
+/* line 228, input/cubes.scss */
 .full_cube {
   display: none; }
 
-/* line 215, input/cubes.scss */
+/* line 234, input/cubes.scss */
 .band_name_box {
   float: left;
   width: 80%;
   background: gray; }
 
-/* line 221, input/cubes.scss */
+/* line 240, input/cubes.scss */
 .icon_box {
   float: right;
   width: 20%;
   height: 90%; }
 
-/* line 227, input/cubes.scss */
+/* line 246, input/cubes.scss */
 .g_box {
   content: url(/img/G.svg); }
 
-/* line 231, input/cubes.scss */
+/* line 250, input/cubes.scss */
 .pick_box {
   content: url(/img/check.svg);
   width: 100%; }
 
-/* line 239, input/cubes.scss */
+/* line 258, input/cubes.scss */
 h1.neighborhood_name {
   font-family: "Arvo", serif;
   font: 400;
   color: #e6580a;
   text-align: center; }
 
-/* line 246, input/cubes.scss */
+/* line 265, input/cubes.scss */
 h2 {
   line-height: 1.1em;
   font-family: "Oswald", sans-serif; }
   @media screen and (min-width: 601px) {
-    /* line 246, input/cubes.scss */
+    /* line 265, input/cubes.scss */
     h2 {
       font-size: 1.4em;
       line-height: 1.2em;
       position: relative;
       bottom: 5 em; } }
   @media screen and (max-width: 600px) {
-    /* line 246, input/cubes.scss */
+    /* line 265, input/cubes.scss */
     h2 {
       float: left;
       display: block;
