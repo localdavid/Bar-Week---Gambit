@@ -338,7 +338,7 @@ section .cubes_Fri {
       display: block;
       margin-right: 2.3576515979%;
       width: 31.7615656014%;
-      height: 800px; }
+      height: 2000px; }
       /* line 89, ../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
       section .cubes_Fri:last-child {
         margin-right: 0; } }
@@ -364,7 +364,7 @@ section .cubes_Fri_last {
       display: block;
       margin-right: 2.3576515979%;
       width: 31.7615656014%;
-      height: 800px; }
+      height: 2000px; }
       /* line 89, ../../../../Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
       section .cubes_Fri_last:last-child {
         margin-right: 0; } }
@@ -508,9 +508,9 @@ section .text2 {
   display: table;
   vertical-align: middle;
   text-align: center;
-  background-color: #31322b;
-  background-image: -webkit-linear-gradient(#31322b, #4c4e42);
-  background-image: linear-gradient(#31322b, #4c4e42); }
+  background-color: #756000;
+  background-image: -webkit-linear-gradient(#756000, #a88a00);
+  background-image: linear-gradient(#756000, #a88a00); }
   @media screen and (max-width: 600px) {
     /* line 141, input/cubes.scss */
     section .text2 {
@@ -519,7 +519,7 @@ section .text2 {
 section h3 {
   font-size: 1.1em;
   text-align: center;
-  line-height: .5em;
+  line-height: 1em;
   font-family: "Arvo", serif;
   font-weight: 700; }
 /* line 157, input/cubes.scss */

@@ -6,7 +6,7 @@
 
 	@include media($breakpoint-2) {
 		@include span-columns(4);
-		height: 800px;
+		height: 2000px;
 	}
     
 	@include media($breakpoint-1) {
@@ -149,7 +149,7 @@ section {
 		h3 {
 			font-size: 1.1em;
 			text-align: center;
-			line-height: .5em;
+			line-height: 1em;
 			font-family: $secondary-font;
 			font-weight: 700;
 		}
