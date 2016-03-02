@@ -48,7 +48,9 @@
 	@include media($breakpoint-1) {
 			height: 80px;				
 	}
-	
+	h3{
+		margin-top: 5px;
+	}
 }
 
 
@@ -179,7 +181,7 @@ section {
 			line-height: 1.1em;
 			font-family: $primary-font;
 			position: relative;
-			bottom: .2em;
+			margin-bottom: 0px;
 			& .small{
 				font-size: 1em;
 				}
