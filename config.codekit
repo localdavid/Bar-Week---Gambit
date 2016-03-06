@@ -182,17 +182,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/css\/music1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 155741,
-		"inputAbbreviatedPath": "\/css\/music1.jpg",
-		"outputAbbreviatedPath": "\/css\/music1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/css\/primary.css": {
 		"fileType": 16,
 		"ignore": 1,
