@@ -264,6 +264,27 @@ h1.neighborhood_name{
 	text-align: center;
 }
 
+h1.neighborhood_name_beer{
+	@extend h1.neighborhood_name;
+	color: $beer-color;
+}
+
+h1.neighborhood_name_wine{
+	@extend h1.neighborhood_name;
+	color: $wine-color;
+}
+
+h1.neighborhood_name_liquor{
+	@extend h1.neighborhood_name;
+	color: $liquor-color;
+}
+
+h1.neighborhood_name_mixeddrink{
+	@extend h1.neighborhood_name;
+	color: $mixeddrink-color;
+}
+
+
 h2{
 	// 				text-align: center;
 	line-height: 1.1em;

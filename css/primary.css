@@ -639,25 +639,41 @@ section h1 {
   width: 100%; }
 
 /* line 260, input/cubes.scss */
-h1.neighborhood_name {
+h1.neighborhood_name, h1.neighborhood_name_beer, h1.neighborhood_name_wine, h1.neighborhood_name_liquor, h1.neighborhood_name_mixeddrink {
   font-family: "Arvo", serif;
   font: 400;
   color: #e6580a;
   text-align: center; }
 
 /* line 267, input/cubes.scss */
+h1.neighborhood_name_beer {
+  color: #F47D20; }
+
+/* line 272, input/cubes.scss */
+h1.neighborhood_name_wine {
+  color: #832C75; }
+
+/* line 277, input/cubes.scss */
+h1.neighborhood_name_liquor {
+  color: #ED1C24; }
+
+/* line 282, input/cubes.scss */
+h1.neighborhood_name_mixeddrink {
+  color: #94B831; }
+
+/* line 288, input/cubes.scss */
 h2 {
   line-height: 1.1em;
   font-family: "Oswald", sans-serif; }
   @media screen and (min-width: 601px) {
-    /* line 267, input/cubes.scss */
+    /* line 288, input/cubes.scss */
     h2 {
       font-size: 1.4em;
       line-height: 1.2em;
       position: relative;
       bottom: 5 em; } }
   @media screen and (max-width: 600px) {
-    /* line 267, input/cubes.scss */
+    /* line 288, input/cubes.scss */
     h2 {
       float: left;
       display: block;
