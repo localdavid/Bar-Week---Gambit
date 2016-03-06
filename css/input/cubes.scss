@@ -29,6 +29,34 @@
 	}
 }
 
+@mixin column-2 {
+    background: $column-color;
+
+	@include media($breakpoint-2) {
+		@include span-columns(6);
+		height: 910px;		
+	}
+    
+	@include media($breakpoint-1) {
+		@include span-columns(12);
+		height: 100%;			
+	}
+}
+
+@mixin column-1 {
+    background: $column-color;
+
+	@include media($breakpoint-2) {
+		@include span-columns(12);
+		height: 910px;		
+	}
+    
+	@include media($breakpoint-1) {
+		@include span-columns(12);
+		height: 100%;			
+	}
+}
+
 @mixin column_last{
 	@include column-3;
 	@include omega();
@@ -104,6 +132,19 @@ section {
 			@include omega;
 		}			
 			
+		.cubes_CBD {
+			@include column-2;
+		}
+
+		.cubes_CBD_last {
+			@include column-2;
+			@include omega;
+		}			
+			
+		.cubes_citywide {
+			@include column-1;
+		}
+
 		
 		.cubes_Sat {
 			@include column-4;
