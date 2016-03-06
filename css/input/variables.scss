@@ -34,6 +34,8 @@ $color-3-darken3: darken($color-3, 35%);
 
 // Drink colors
 $beer-color: #F47D20;
+$beer-color-darken: darken($beer-color, 10%);
+
 $wine-color: #832C75;
 $liquor-color: #ED1C24;
 $mixeddrink-color: #94B831;

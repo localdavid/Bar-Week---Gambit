@@ -126,7 +126,15 @@ section {
 			background-position: 95% 10%, 0 0;
 			background-size: 50px, auto;
 */
+		}	
+		
+		.band_box_beer {
+			@include band_box_template;
+			@include linear-gradient($beer-color, $beer-color-darken);
 		}		
+		
+		
+			
 		
 		.band_box_performer_pick {
 			@include band_box_template;
