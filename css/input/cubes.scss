@@ -133,6 +133,10 @@ section {
 			@include linear-gradient($beer-color, $beer-color-darken);
 		}		
 		
+		.band_box_mixeddrink {
+			@include band_box_template;
+			@include linear-gradient($mixeddrink-color, $mixeddrink-color-darken);
+		}		
 		
 			
 		

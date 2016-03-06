@@ -39,6 +39,7 @@ $beer-color-darken: darken($beer-color, 10%);
 $wine-color: #832C75;
 $liquor-color: #ED1C24;
 $mixeddrink-color: #94B831;
+$mixeddrink-color-darken: darken($mixeddrink-color, 10%);
 
 // Google Fonts
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,700|Oswald:700|Alfa+Slab+One);
