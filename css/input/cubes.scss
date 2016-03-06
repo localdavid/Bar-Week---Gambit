@@ -96,11 +96,11 @@ section {
 		}
 		
 		.cubes_FQ {
-			@include column-3;
+			@include column-4;
 		}
 
 		.cubes_FQ_last {
-			@include column-3;
+			@include column-4;
 			@include omega;
 		}			
 			
