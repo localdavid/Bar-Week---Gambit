@@ -181,22 +181,22 @@ section {
 		
 		.band_box_beer {
 			@include band_box_template;
-			@include linear-gradient($beer-color, $beer-color-darken);
+			@include linear-gradient($beer-color-lighten1, $beer-color-lighten2);
 		}		
 		
 		.band_box_mixeddrink {
 			@include band_box_template;
-			@include linear-gradient($mixeddrink-color, $mixeddrink-color-darken);
+			@include linear-gradient($mixeddrink-color-lighten1, $mixeddrink-color-lighten2);
 		}		
 		
 		.band_box_wine {
 			@include band_box_template;
-			@include linear-gradient($wine-color, $wine-color-darken);
+			@include linear-gradient($wine-color-lighten1, $wine-color-lighten2);
 		}		
 		
 		.band_box_liquor {
 			@include band_box_template;
-			@include linear-gradient($liquor-color, $liquor-color-darken);
+			@include linear-gradient($liquor-color-lighten1, $liquor-color-lighten2);
 		}		
 		
 			

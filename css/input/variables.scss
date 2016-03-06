@@ -35,15 +35,26 @@ $color-3-darken3: darken($color-3, 35%);
 // Drink colors
 $beer-color: #F47D20;
 $beer-color-darken: darken($beer-color, 10%);
+$beer-color-lighten1: lighten($beer-color, 22%);
+$beer-color-lighten2: lighten($beer-color, 10%);
+
 
 $wine-color: #832C75;
 $wine-color-darken: darken($wine-color, 10%);
+$wine-color-lighten1: lighten($wine-color, 35%);
+$wine-color-lighten2: lighten($wine-color, 15%);
+
 
 $liquor-color: #ED1C24;
 $liquor-color-darken: darken($liquor-color, 10%);
+$liquor-color-lighten1: lighten($liquor-color, 30%);
+$liquor-color-lighten2: lighten($liquor-color, 10%);
+
 
 $mixeddrink-color: #94B831;
 $mixeddrink-color-darken: darken($mixeddrink-color, 10%);
+$mixeddrink-color-lighten1: lighten($mixeddrink-color, 25%);
+$mixeddrink-color-lighten2: lighten($mixeddrink-color, 7%);
 
 // Google Fonts
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,700|Oswald:700|Alfa+Slab+One);
