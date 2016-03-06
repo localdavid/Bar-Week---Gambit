@@ -138,6 +138,11 @@ section {
 			@include linear-gradient($mixeddrink-color, $mixeddrink-color-darken);
 		}		
 		
+		.band_box_wine {
+			@include band_box_template;
+			@include linear-gradient($wine-color, $wine-color-darken);
+		}		
+		
 			
 		
 		.band_box_performer_pick {
