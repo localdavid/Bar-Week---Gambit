@@ -736,9 +736,9 @@ section .text2 {
     margin-top: 5px; }
 /* line 225, input/cubes.scss */
 section h3 {
-  font-size: 1.1em;
+  font-size: 1.25em;
   text-align: center;
-  line-height: 1em;
+  line-height: 1.1em;
   font-family: "Arvo", serif;
   font-weight: 700; }
 /* line 233, input/cubes.scss */
@@ -767,120 +767,68 @@ section h1 {
   font-family: "Oswald", sans-serif;
   position: relative;
   margin-bottom: 7px; }
-  /* line 261, input/cubes.scss */
-  section h1 .small {
-    font-size: 1em; }
-  @media screen and (max-width: 600px) {
-    /* line 254, input/cubes.scss */
-    section h1 {
-      font-size: 1.4em; } }
 
 /* line 270, input/cubes.scss */
-.band_box_kids {
-  height: 100px;
-  width: 100%;
-  display: table;
-  vertical-align: middle;
-  text-align: center;
-  padding: 0px 4px 0px 4px;
-  background-color: #F6742D;
-  background-image: -webkit-linear-gradient(#F6742D, #e6580a);
-  background-image: linear-gradient(#F6742D, #e6580a);
-  height: 70px; }
-  @media screen and (max-width: 600px) {
-    /* line 270, input/cubes.scss */
-    .band_box_kids {
-      height: 80px; } }
-  /* line 80, input/cubes.scss */
-  .band_box_kids h3 {
-    margin-top: 5px; }
-  /* line 274, input/cubes.scss */
-  .band_box_kids a {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 200;
-    text-decoration: none; }
-    /* line 283, input/cubes.scss */
-    .band_box_kids a h1 {
-      font-size: 3em;
-      line-height: 1em;
-      font-family: "Oswald", sans-serif;
-      position: relative;
-      bottom: .2em; }
-  /* line 292, input/cubes.scss */
-  .band_box_kids h3 {
-    line-height: .2em;
-    position: relative;
-    top: .2em; }
-    @media screen and (max-width: 600px) {
-      /* line 292, input/cubes.scss */
-      .band_box_kids h3 {
-        top: .3em; } }
-
-/* line 306, input/cubes.scss */
 .full_cube {
   display: none; }
 
-/* line 312, input/cubes.scss */
+/* line 276, input/cubes.scss */
 .band_name_box {
   float: left;
   width: 80%;
   background: gray; }
 
-/* line 318, input/cubes.scss */
+/* line 282, input/cubes.scss */
 .icon_box {
   float: right;
   width: 20%;
   height: 90%; }
 
-/* line 324, input/cubes.scss */
+/* line 288, input/cubes.scss */
 .g_box {
   content: url(/img/G.svg); }
 
-/* line 328, input/cubes.scss */
+/* line 292, input/cubes.scss */
 .pick_box {
   content: url(/img/check.svg);
   width: 100%; }
 
-/* line 336, input/cubes.scss */
+/* line 300, input/cubes.scss */
 h1.neighborhood_name, h1.neighborhood_name_beer, h1.neighborhood_name_wine, h1.neighborhood_name_liquor, h1.neighborhood_name_mixeddrink {
   font-family: "Arvo", serif;
   font: 400;
   color: #e6580a;
   text-align: center; }
 
-/* line 343, input/cubes.scss */
+/* line 307, input/cubes.scss */
 h1.neighborhood_name_beer {
   color: #F47D20; }
 
-/* line 348, input/cubes.scss */
+/* line 312, input/cubes.scss */
 h1.neighborhood_name_wine {
   color: #832C75; }
 
-/* line 353, input/cubes.scss */
+/* line 317, input/cubes.scss */
 h1.neighborhood_name_liquor {
   color: #ED1C24; }
 
-/* line 358, input/cubes.scss */
+/* line 322, input/cubes.scss */
 h1.neighborhood_name_mixeddrink {
   color: #94B831; }
 
-/* line 364, input/cubes.scss */
+/* line 328, input/cubes.scss */
 h2 {
   line-height: 1.1em;
   font-family: "Oswald", sans-serif; }
   @media screen and (min-width: 601px) {
-    /* line 364, input/cubes.scss */
+    /* line 328, input/cubes.scss */
     h2 {
       font-size: 1.4em;
       line-height: 1.2em;
       position: relative;
       bottom: 5 em; } }
   @media screen and (max-width: 600px) {
-    /* line 364, input/cubes.scss */
+    /* line 328, input/cubes.scss */
     h2 {
       float: left;
       display: block;
