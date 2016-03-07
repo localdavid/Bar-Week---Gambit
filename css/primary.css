@@ -762,18 +762,18 @@ section h5 {
   text-transform: uppercase; }
 /* line 254, input/cubes.scss */
 section h1 {
-  font-size: 1.5em;
-  line-height: 1.1em;
+  font-size: 1.7em;
+  line-height: 1.3em;
   font-family: "Oswald", sans-serif;
   position: relative;
-  margin-bottom: 0px; }
+  margin-bottom: 7px; }
   /* line 261, input/cubes.scss */
   section h1 .small {
     font-size: 1em; }
   @media screen and (max-width: 600px) {
     /* line 254, input/cubes.scss */
     section h1 {
-      font-size: 1.6em; } }
+      font-size: 1.4em; } }
 
 /* line 270, input/cubes.scss */
 .band_box_kids {

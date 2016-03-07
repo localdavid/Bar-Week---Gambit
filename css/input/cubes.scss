@@ -252,17 +252,17 @@ section {
 		}
 		
 		h1 {
-			font-size: 1.5em;
+			font-size: 1.7em;
 			// 				text-align: center;
-			line-height: 1.1em;
+			line-height: 1.3em;
 			font-family: $primary-font;
 			position: relative;
-			margin-bottom: 0px;
+			margin-bottom: 7px;
 			& .small{
 				font-size: 1em;
 				}
 			@include media($breakpoint-1) {
-				font-size: 1.6em;				
+				font-size: 1.4em;				
 				}
 			}	
 		}
