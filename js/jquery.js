@@ -80,8 +80,8 @@ $(window).resize(function() {
 		    // Shows filters when a day is clicked
 		    $('.filters').show();
 		    
-		    // And hide the intro pic
-		    $('.test').hide();		    
+		    // And hide the ad pic
+		    $('#more_box').hide();		    
 		});
 	});
 

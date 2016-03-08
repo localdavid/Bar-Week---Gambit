@@ -18,7 +18,7 @@ header {
   padding-top: 0;
   position: fixed;
   top: 0;
-  z-index: -1;
+  z-index: 200;
   height: 200px;
   /*
   	background-image: url("blue-abstract.jpg");
@@ -43,26 +43,28 @@ header {
       padding-top: 0;
       position: fixed;
       top: 0;
-      z-index: 200;
+      z-index: -1;
       height: 100px; } }
   /* line 36, input/header.scss */
   header img {
     max-width: 250px;
     height: auto;
-    /*
-    		@include media($breakpoint-2) {
-    			max-width: 100px;
-    		}
-    		@include media($breakpoint-1) {
-    			max-width: 250px;
-    		}
-    		@include media($breakpoint-3) {
-    			max-width: 130px;
-    		}
-    		
-    */ }
+    margin-top: 2%; }
+    @media screen and (max-width: 600px) {
+      /* line 36, input/header.scss */
+      header img {
+        margin-top: 2%;
+        max-width: 120px; } }
+    @media screen and (min-width: 601px) {
+      /* line 36, input/header.scss */
+      header img {
+        max-width: 170px; } }
+    @media screen and (min-width: 950px) {
+      /* line 36, input/header.scss */
+      header img {
+        max-width: 200px; } }
   @media screen and (max-width: 600px) {
-    /* line 62, input/header.scss */
+    /* line 65, input/header.scss */
     header h1 {
       margin-top: 10px;
       text-align: center;
@@ -72,7 +74,7 @@ header {
       letter-spacing: 2px;
       text-shadow: 3px 3px 1px #6c2905; } }
   @media screen and (min-width: 601px) {
-    /* line 62, input/header.scss */
+    /* line 65, input/header.scss */
     header h1 {
       text-align: center;
       font-family: "Alfa Slab One", cursive;
@@ -81,7 +83,7 @@ header {
       letter-spacing: 2px;
       text-shadow: 3px 3px 1px #6c2905; } }
   @media screen and (min-width: 950px) {
-    /* line 62, input/header.scss */
+    /* line 65, input/header.scss */
     header h1 {
       text-align: center;
       font-family: "Alfa Slab One", cursive;
@@ -89,31 +91,29 @@ header {
       color: white;
       letter-spacing: 2px;
       text-shadow: 3px 3px 1px #6c2905; } }
-  /* line 98, input/header.scss */
+  /* line 101, input/header.scss */
   header p {
     font-family: "Arvo", serif;
     font-weight: 400; }
     @media screen and (max-width: 600px) {
-      /* line 98, input/header.scss */
+      /* line 101, input/header.scss */
       header p {
         font-size: 1em;
         line-height: .8em;
         position: relative;
         bottom: 5px; } }
     @media screen and (min-width: 601px) {
-      /* line 98, input/header.scss */
+      /* line 101, input/header.scss */
       header p {
         font-size: 1.0em;
-        line-height: .8em;
         /*
         		position: relative;
         		bottom: 3px;								
         */ } }
     @media screen and (min-width: 601px) {
-      /* line 98, input/header.scss */
+      /* line 101, input/header.scss */
       header p {
         font-size: 1.4em;
-        line-height: .8em;
         position: relative;
         top: 2px; } }
 
@@ -130,7 +130,7 @@ h1.headline {
 }
 */
 @media screen and (max-width: 600px) {
-  /* line 139, input/header.scss */
+  /* line 142, input/header.scss */
   .desc_div {
     display: none; } }
 
@@ -167,33 +167,29 @@ section.navigation {
     section.navigation {
       position: fixed;
       margin: 10px 0 0 0;
-      top: 90px;
       width: 100%;
       background-color: white; } }
 
-/*
-section.navigation_scrolled{
-	position: fixed;
-	width: 100%;
-	z-index: 300;
-	margin: 0;
-	padding: 0;
-	margin-top: 180;
-	top: 0;
+/* line 21, input/navigation.scss */
+section.navigation_scrolled {
+  position: fixed;
+  width: 100%;
+  z-index: 300;
+  margin: 0;
+  padding: 0;
+  top: 0; }
 
-}
-*/
-/* line 36, input/navigation.scss */
+/* line 34, input/navigation.scss */
 .date_select_div {
   height: 50px;
   width: 100%; }
   @media screen and (max-width: 600px) {
-    /* line 36, input/navigation.scss */
+    /* line 34, input/navigation.scss */
     .date_select_div {
       height: 30px; } }
 
 /* .myMenu is the class for the whole menu */
-/* line 45, input/navigation.scss */
+/* line 43, input/navigation.scss */
 .myMenu {
   margin: 0;
   padding: 0;
@@ -205,7 +201,7 @@ section.navigation_scrolled{
   background-color: #F6742D; }
 
 /* li is the top level box, the first one you see */
-/* line 57, input/navigation.scss */
+/* line 55, input/navigation.scss */
 li {
   height: 100%;
   width: 100%;
@@ -213,7 +209,7 @@ li {
   float: left;
   font: 12px Arial, Helvetica, sans-serif #111;
   /* li ul is the container for the boxes that come out when the top box is expanded */ }
-  /* line 63, input/navigation.scss */
+  /* line 61, input/navigation.scss */
   li a:link, li a:visited {
     display: block;
     text-decoration: none;
@@ -228,11 +224,11 @@ li {
     			}	
     */ }
     @media screen and (max-width: 600px) {
-      /* line 63, input/navigation.scss */
+      /* line 61, input/navigation.scss */
       li a:link, li a:visited {
         padding: 0 px;
         font-size: .8em; } }
-  /* line 83, input/navigation.scss */
+  /* line 81, input/navigation.scss */
   li ul {
     width: 100%;
     position: absolute;
@@ -240,30 +236,30 @@ li {
     border-top: 1px solid #fff;
     margin: 0;
     padding: 0; }
-    /* line 90, input/navigation.scss */
+    /* line 88, input/navigation.scss */
     li ul li {
       display: inline;
       float: none; }
       @media screen and (max-width: 600px) {
-        /* line 90, input/navigation.scss */
+        /* line 88, input/navigation.scss */
         li ul li {
           padding: 0 px;
           font-size: 26px; } }
-      /* line 97, input/navigation.scss */
+      /* line 95, input/navigation.scss */
       li ul li a:link, li ul li .myMenu li ul li a:visited {
         background-color: #F6742D;
         width: auto; }
 
-/* line 106, input/navigation.scss */
+/* line 104, input/navigation.scss */
 .myMenu li ul li a:link, .myMenu li ul li a:visited {
   background-color: #F6742D;
   width: auto; }
 
-/* line 111, input/navigation.scss */
+/* line 109, input/navigation.scss */
 .myMenu li ul li a:hover {
   background-color: #9d3c07; }
 
-/* line 122, input/navigation.scss */
+/* line 120, input/navigation.scss */
 .filters {
   max-width: 68em;
   margin-left: auto;
@@ -276,7 +272,7 @@ li {
     content: "";
     display: table; }
 
-/* line 130, input/navigation.scss */
+/* line 128, input/navigation.scss */
 .band_btn, .count_basin_button, .performer_pick_button {
   font-size: 1.1em;
   color: white;
@@ -287,25 +283,25 @@ li {
   padding: 10px 15px 10px 15px;
   margin: 8px; }
 
-/* line 144, input/navigation.scss */
+/* line 142, input/navigation.scss */
 .count_basin_button {
   background-color: white;
   color: #ffd40f;
   border-color: #ffd40f; }
 
-/* line 152, input/navigation.scss */
+/* line 150, input/navigation.scss */
 .basin_button_active {
   color: white;
   background-color: #ffd40f;
   border-color: #ffd40f; }
 
-/* line 162, input/navigation.scss */
+/* line 160, input/navigation.scss */
 .performer_pick_button {
   color: #c12fdd;
   background-color: white;
   border-color: #c12fdd; }
 
-/* line 169, input/navigation.scss */
+/* line 167, input/navigation.scss */
 .performer_pick_button_active {
   color: white;
   background-color: #c12fdd;
@@ -859,10 +855,13 @@ h2 {
 /* line 3, input/more.scss */
 #more_box {
   height: 220px;
-  z-index: -10;
+  z-index: 400;
   position: fixed;
   bottom: 0;
   right: 0; }
+  /* line 9, input/more.scss */
+  #more_box img {
+    width: 240px; }
 
 /* line 11, input/primary.scss */
 body {

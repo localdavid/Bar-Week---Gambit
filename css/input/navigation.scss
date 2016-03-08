@@ -12,24 +12,22 @@ section.navigation {
 	@include media($breakpoint-1) {
 		position: fixed;
 		margin: 10px 0 0 0;
-		top: 90px;
+// 		top: -90px;
 		width: 100%;
 // 		box-shadow: 0 4px 5px rgba(0,0,0, .3);
 		background-color: white;		
 	}
 }
-/*
 section.navigation_scrolled{
 	position: fixed;
 	width: 100%;
 	z-index: 300;
 	margin: 0;
 	padding: 0;
-	margin-top: 180;
+// 	margin-top: 180;
 	top: 0;
 
 }
-*/
 
 // Drop down menu to select weekend
 
