@@ -42,19 +42,34 @@ $(window).resize(function() {
 		
 		// Define the open and close submenu functions
 	
-				function openSubMenu() {
+			function openSubMenu() {
 				$(this).find('ul').css('visibility', 'visible');	
+
 			}
 			
 			function closeSubMenu() {
 				$(this).find('ul').css('visibility', 'hidden');	
 			}
+			
+			function hideAd (){
+			    $('body > #more_box').hide();		    
+			}
+/*
+			
+			function showAd (){
+			    $('body > #more_box').show();		    
+			}		
+*/	
 	
 		
 		// when the mouse is moved over a li in myMenu, the function openSubMenu is called
 			$('.myMenu > li').on('mouseover touchstart', openSubMenu);
+			$('.myMenu > li').on('mouseover touchstart', hideAd);		
+			
 		//  We need to bind another event listener to detect when the mouse rolls out and call a function that gets rid of the dropdown.
 			$('.myMenu > li').on('mouseout', closeSubMenu);
+// 			$('.myMenu > li').on('mouseout', showAd);
+			
 		
 		// When the mouse rolls over the list item, the function looks for an unordered list within it. If one is found, it sets the style property visibility to visible.
 			function openSubMenu() {
@@ -65,6 +80,9 @@ $(window).resize(function() {
 				$(this).find('ul').css('visibility', 'hidden');	
 			}
 		});
+
+
+
 
 
 
