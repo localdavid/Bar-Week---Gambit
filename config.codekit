@@ -38,6 +38,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/coors.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50464,
+		"inputAbbreviatedPath": "\/css\/coors.jpeg",
+		"outputAbbreviatedPath": "\/css\/coors.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/css\/css\/background.css": {
 		"fileType": 16,
 		"ignore": 1,

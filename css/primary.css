@@ -37,7 +37,7 @@ header {
       position: fixed;
       top: 0;
       z-index: 200;
-      height: 100px; } }
+      height: 90px; } }
   /* line 29, input/header.scss */
   header img {
     height: auto; }
@@ -48,7 +48,7 @@ header {
     @media screen and (max-width: 600px) {
       /* line 29, input/header.scss */
       header img {
-        max-width: 80px; } }
+        max-width: 250px; } }
     @media screen and (min-width: 950px) {
       /* line 29, input/header.scss */
       header img {
@@ -211,20 +211,21 @@ li {
     display: block;
     text-decoration: none;
     background-color: #e6580a;
-    padding: 0.5em 2em;
+    padding: 0.2em 0.5em 0.2em 0.5em;
     margin: 0;
     border-right: 1px solid #fff;
-    color: #111; }
+    color: #111;
+    /*
+    		@include media($breakpoint-1) {
+    			padding: 0.05em;					
+    			}	
+    */ }
     @media screen and (max-width: 600px) {
       /* line 62, input/navigation.scss */
       li a:link, li a:visited {
-        padding: 12px 0px 7px 10px;
-        font-size: 1em; } }
-    @media screen and (max-width: 600px) {
-      /* line 62, input/navigation.scss */
-      li a:link, li a:visited {
-        padding: 0.1em; } }
-  /* line 80, input/navigation.scss */
+        padding: 0 px;
+        font-size: .8em; } }
+  /* line 82, input/navigation.scss */
   li ul {
     width: 100%;
     position: absolute;
@@ -232,25 +233,25 @@ li {
     border-top: 1px solid #fff;
     margin: 0;
     padding: 0; }
-    /* line 87, input/navigation.scss */
+    /* line 89, input/navigation.scss */
     li ul li {
       display: inline;
       float: none; }
-      /* line 90, input/navigation.scss */
+      /* line 92, input/navigation.scss */
       li ul li a:link, li ul li .myMenu li ul li a:visited {
         background-color: #F6742D;
         width: auto; }
 
-/* line 99, input/navigation.scss */
+/* line 101, input/navigation.scss */
 .myMenu li ul li a:link, .myMenu li ul li a:visited {
   background-color: #F6742D;
   width: auto; }
 
-/* line 104, input/navigation.scss */
+/* line 106, input/navigation.scss */
 .myMenu li ul li a:hover {
   background-color: #9d3c07; }
 
-/* line 115, input/navigation.scss */
+/* line 117, input/navigation.scss */
 .filters {
   max-width: 68em;
   margin-left: auto;
@@ -263,7 +264,7 @@ li {
     content: "";
     display: table; }
 
-/* line 123, input/navigation.scss */
+/* line 125, input/navigation.scss */
 .band_btn, .count_basin_button, .performer_pick_button {
   font-size: 1.1em;
   color: white;
@@ -274,25 +275,25 @@ li {
   padding: 10px 15px 10px 15px;
   margin: 8px; }
 
-/* line 137, input/navigation.scss */
+/* line 139, input/navigation.scss */
 .count_basin_button {
   background-color: white;
   color: #ffd40f;
   border-color: #ffd40f; }
 
-/* line 145, input/navigation.scss */
+/* line 147, input/navigation.scss */
 .basin_button_active {
   color: white;
   background-color: #ffd40f;
   border-color: #ffd40f; }
 
-/* line 155, input/navigation.scss */
+/* line 157, input/navigation.scss */
 .performer_pick_button {
   color: #c12fdd;
   background-color: white;
   border-color: #c12fdd; }
 
-/* line 162, input/navigation.scss */
+/* line 164, input/navigation.scss */
 .performer_pick_button_active {
   color: white;
   background-color: #c12fdd;
@@ -843,99 +844,13 @@ h2 {
       h2:last-child {
         margin-right: 0; } }
 
-/* line 1, input/more.scss */
+/* line 3, input/more.scss */
 #more_box {
-  display: block;
-  width: 100%;
-  height: 40px;
-  background-color: white;
-  z-index: 300;
+  height: 220px;
+  z-index: -10;
   position: fixed;
   bottom: 0;
-  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.3); }
-  /* line 11, input/more.scss */
-  #more_box h1 {
-    display: block;
-    font-family: "Arvo", serif;
-    font-size: 1.3em;
-    color: black;
-    margin: 0;
-    text-align: center;
-    padding: 10px; }
-    @media screen and (max-width: 600px) {
-      /* line 11, input/more.scss */
-      #more_box h1 {
-        padding: 3%; } }
-
-/* line 31, input/more.scss */
-#more_box {
-  width: 100%;
-  height: 40px;
-  background-color: white;
-  z-index: 300;
-  position: fixed;
-  bottom: 0;
-  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.3); }
-  @media screen and (max-width: 600px) {
-    /* line 31, input/more.scss */
-    #more_box {
-      visibility: visible; } }
-  @media screen and (min-width: 601px) {
-    /* line 31, input/more.scss */
-    #more_box {
-      visibility: hidden; } }
-  @media screen and (min-width: 950px) {
-    /* line 31, input/more.scss */
-    #more_box {
-      visibility: hidden; } }
-  /* line 50, input/more.scss */
-  #more_box h1 {
-    display: block;
-    font-family: "Arvo", serif;
-    font-size: 1.3em;
-    color: black;
-    margin: 0;
-    text-align: center;
-    padding: 10px; }
-    @media screen and (max-width: 600px) {
-      /* line 50, input/more.scss */
-      #more_box h1 {
-        padding: 3%; } }
-
-/* line 70, input/more.scss */
-#more_box_2 {
-  width: 100%;
-  height: 40px;
-  background-color: white;
-  z-index: 301;
-  position: fixed;
-  bottom: 0;
-  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.3); }
-  @media screen and (max-width: 600px) {
-    /* line 70, input/more.scss */
-    #more_box_2 {
-      visibility: hidden; } }
-  @media screen and (min-width: 601px) {
-    /* line 70, input/more.scss */
-    #more_box_2 {
-      visibility: visible; } }
-  @media screen and (min-width: 950px) {
-    /* line 70, input/more.scss */
-    #more_box_2 {
-      visibility: visible; } }
-  /* line 89, input/more.scss */
-  #more_box_2 h1 {
-    display: block;
-    font-family: "Arvo", serif;
-    font-size: 1.3em;
-    color: black;
-    margin: 0;
-    text-align: center;
-    padding: 10px; }
-    @media screen and (max-width: 600px) {
-      /* line 89, input/more.scss */
-      #more_box_2 h1 {
-        padding: 3%; } }
+  right: 0; }
 
 /* line 11, input/primary.scss */
 body {

@@ -23,7 +23,7 @@ header {
 		position: fixed;
 		top: 0;
 		z-index: 200;
-		height: 100px;
+		height: 90px;
 			
 	}
 	img {
@@ -32,7 +32,7 @@ header {
 			max-width: 100px;
 		}
 		@include media($breakpoint-1) {
-			max-width: 80px;
+			max-width: 250px;
 		}
 		@include media($breakpoint-3) {
 			max-width: 130px;
