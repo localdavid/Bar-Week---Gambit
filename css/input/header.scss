@@ -4,6 +4,13 @@ header {
 			background-size: 120% auto;
 			background-position-x: -20px;
 			background-repeat: repeat;
+					width: 100%;
+		text-align: center;
+		padding-top: 0;
+		position: fixed;
+		top: 0;
+		z-index: -1;
+		height: 200px;
 
 	@include media($breakpoint-2) {
 		width: 100%;
@@ -23,11 +30,13 @@ header {
 		position: fixed;
 		top: 0;
 		z-index: 200;
-		height: 90px;
+		height: 100px;
 			
 	}
 	img {
+		max-width: 250px;
 		height: auto;		
+/*
 		@include media($breakpoint-2) {
 			max-width: 100px;
 		}
@@ -38,6 +47,7 @@ header {
 			max-width: 130px;
 		}
 		
+*/
 	}
 	
 

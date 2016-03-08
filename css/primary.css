@@ -13,6 +13,13 @@ header {
   background-size: 120% auto;
   background-position-x: -20px;
   background-repeat: repeat;
+  width: 100%;
+  text-align: center;
+  padding-top: 0;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  height: 200px;
   /*
   	background-image: url("blue-abstract.jpg");
   // 	background-size: 800px 200px;
@@ -37,24 +44,25 @@ header {
       position: fixed;
       top: 0;
       z-index: 200;
-      height: 90px; } }
-  /* line 29, input/header.scss */
+      height: 100px; } }
+  /* line 36, input/header.scss */
   header img {
-    height: auto; }
-    @media screen and (min-width: 601px) {
-      /* line 29, input/header.scss */
-      header img {
-        max-width: 100px; } }
-    @media screen and (max-width: 600px) {
-      /* line 29, input/header.scss */
-      header img {
-        max-width: 250px; } }
-    @media screen and (min-width: 950px) {
-      /* line 29, input/header.scss */
-      header img {
-        max-width: 130px; } }
+    max-width: 250px;
+    height: auto;
+    /*
+    		@include media($breakpoint-2) {
+    			max-width: 100px;
+    		}
+    		@include media($breakpoint-1) {
+    			max-width: 250px;
+    		}
+    		@include media($breakpoint-3) {
+    			max-width: 130px;
+    		}
+    		
+    */ }
   @media screen and (max-width: 600px) {
-    /* line 52, input/header.scss */
+    /* line 62, input/header.scss */
     header h1 {
       margin-top: 10px;
       text-align: center;
@@ -64,7 +72,7 @@ header {
       letter-spacing: 2px;
       text-shadow: 3px 3px 1px #6c2905; } }
   @media screen and (min-width: 601px) {
-    /* line 52, input/header.scss */
+    /* line 62, input/header.scss */
     header h1 {
       text-align: center;
       font-family: "Alfa Slab One", cursive;
@@ -73,7 +81,7 @@ header {
       letter-spacing: 2px;
       text-shadow: 3px 3px 1px #6c2905; } }
   @media screen and (min-width: 950px) {
-    /* line 52, input/header.scss */
+    /* line 62, input/header.scss */
     header h1 {
       text-align: center;
       font-family: "Alfa Slab One", cursive;
@@ -81,19 +89,19 @@ header {
       color: white;
       letter-spacing: 2px;
       text-shadow: 3px 3px 1px #6c2905; } }
-  /* line 88, input/header.scss */
+  /* line 98, input/header.scss */
   header p {
     font-family: "Arvo", serif;
     font-weight: 400; }
     @media screen and (max-width: 600px) {
-      /* line 88, input/header.scss */
+      /* line 98, input/header.scss */
       header p {
         font-size: 1em;
         line-height: .8em;
         position: relative;
         bottom: 5px; } }
     @media screen and (min-width: 601px) {
-      /* line 88, input/header.scss */
+      /* line 98, input/header.scss */
       header p {
         font-size: 1.0em;
         line-height: .8em;
@@ -102,7 +110,7 @@ header {
         		bottom: 3px;								
         */ } }
     @media screen and (min-width: 601px) {
-      /* line 88, input/header.scss */
+      /* line 98, input/header.scss */
       header p {
         font-size: 1.4em;
         line-height: .8em;
@@ -122,7 +130,7 @@ h1.headline {
 }
 */
 @media screen and (max-width: 600px) {
-  /* line 129, input/header.scss */
+  /* line 139, input/header.scss */
   .desc_div {
     display: none; } }
 
@@ -153,8 +161,7 @@ section.navigation {
     /* line 1, input/navigation.scss */
     section.navigation {
       position: relative;
-      background-color: white;
-      box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3); } }
+      background-color: white; } }
   @media screen and (max-width: 600px) {
     /* line 1, input/navigation.scss */
     section.navigation {
@@ -162,7 +169,6 @@ section.navigation {
       margin: 10px 0 0 0;
       top: 90px;
       width: 100%;
-      box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
       background-color: white; } }
 
 /*
@@ -201,12 +207,13 @@ section.navigation_scrolled{
 /* li is the top level box, the first one you see */
 /* line 57, input/navigation.scss */
 li {
+  height: 100%;
   width: 100%;
   list-style: none;
   float: left;
   font: 12px Arial, Helvetica, sans-serif #111;
   /* li ul is the container for the boxes that come out when the top box is expanded */ }
-  /* line 62, input/navigation.scss */
+  /* line 63, input/navigation.scss */
   li a:link, li a:visited {
     display: block;
     text-decoration: none;
@@ -221,11 +228,11 @@ li {
     			}	
     */ }
     @media screen and (max-width: 600px) {
-      /* line 62, input/navigation.scss */
+      /* line 63, input/navigation.scss */
       li a:link, li a:visited {
         padding: 0 px;
         font-size: .8em; } }
-  /* line 82, input/navigation.scss */
+  /* line 83, input/navigation.scss */
   li ul {
     width: 100%;
     position: absolute;
@@ -233,25 +240,30 @@ li {
     border-top: 1px solid #fff;
     margin: 0;
     padding: 0; }
-    /* line 89, input/navigation.scss */
+    /* line 90, input/navigation.scss */
     li ul li {
       display: inline;
       float: none; }
-      /* line 92, input/navigation.scss */
+      @media screen and (max-width: 600px) {
+        /* line 90, input/navigation.scss */
+        li ul li {
+          padding: 0 px;
+          font-size: 26px; } }
+      /* line 97, input/navigation.scss */
       li ul li a:link, li ul li .myMenu li ul li a:visited {
         background-color: #F6742D;
         width: auto; }
 
-/* line 101, input/navigation.scss */
+/* line 106, input/navigation.scss */
 .myMenu li ul li a:link, .myMenu li ul li a:visited {
   background-color: #F6742D;
   width: auto; }
 
-/* line 106, input/navigation.scss */
+/* line 111, input/navigation.scss */
 .myMenu li ul li a:hover {
   background-color: #9d3c07; }
 
-/* line 117, input/navigation.scss */
+/* line 122, input/navigation.scss */
 .filters {
   max-width: 68em;
   margin-left: auto;
@@ -264,7 +276,7 @@ li {
     content: "";
     display: table; }
 
-/* line 125, input/navigation.scss */
+/* line 130, input/navigation.scss */
 .band_btn, .count_basin_button, .performer_pick_button {
   font-size: 1.1em;
   color: white;
@@ -275,25 +287,25 @@ li {
   padding: 10px 15px 10px 15px;
   margin: 8px; }
 
-/* line 139, input/navigation.scss */
+/* line 144, input/navigation.scss */
 .count_basin_button {
   background-color: white;
   color: #ffd40f;
   border-color: #ffd40f; }
 
-/* line 147, input/navigation.scss */
+/* line 152, input/navigation.scss */
 .basin_button_active {
   color: white;
   background-color: #ffd40f;
   border-color: #ffd40f; }
 
-/* line 157, input/navigation.scss */
+/* line 162, input/navigation.scss */
 .performer_pick_button {
   color: #c12fdd;
   background-color: white;
   border-color: #c12fdd; }
 
-/* line 164, input/navigation.scss */
+/* line 169, input/navigation.scss */
 .performer_pick_button_active {
   color: white;
   background-color: #c12fdd;

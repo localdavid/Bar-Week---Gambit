@@ -4,7 +4,7 @@ section.navigation {
 	@include media($breakpoint-2) {
 		position: relative;
 		background-color: white;
-		box-shadow: 0 4px 5px rgba(0,0,0, .3);
+// 		box-shadow: 0 4px 5px rgba(0,0,0, .3);
 
 
 	}
@@ -14,7 +14,7 @@ section.navigation {
 		margin: 10px 0 0 0;
 		top: 90px;
 		width: 100%;
-		box-shadow: 0 4px 5px rgba(0,0,0, .3);
+// 		box-shadow: 0 4px 5px rgba(0,0,0, .3);
 		background-color: white;		
 	}
 }
@@ -55,6 +55,7 @@ section.navigation_scrolled{
   
   /* li is the top level box, the first one you see */
 	li {
+		height: 100%;
 		width: 100%;
 		list-style:none;
 		float:left;
@@ -87,6 +88,10 @@ section.navigation_scrolled{
         margin:0;
         padding:0;
         li {
+        	@include media($breakpoint-1) {
+	        	padding: 0 px;
+	        	font-size: 26px;
+			}
           display:inline;
           float:none;
           a:link, .myMenu li ul li a:visited {
